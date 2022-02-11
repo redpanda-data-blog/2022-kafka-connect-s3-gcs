@@ -50,6 +50,18 @@
       <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-direct</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.apache.camel.quarkus</groupId>
+      <artifactId>camel-quarkus-file</artifactId>
+  </dependency>
+  <dependency>
+    <groupId>org.apache.camel.quarkus</groupId>
+    <artifactId>camel-quarkus-bindy</artifactId>
+</dependency>
+<dependency>
+  <groupId>org.apache.camel.quarkus</groupId>
+  <artifactId>camel-quarkus-bean</artifactId>
+</dependency>
   </dependencies>
   <build>
     <plugins>
