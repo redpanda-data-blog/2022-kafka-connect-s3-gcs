@@ -43,7 +43,6 @@ public class InventoryRouteBuilder extends RouteBuilder {
                     .to("kafka:newyork-inventory")
                 .otherwise()
                     .log("No store location is defined for ${body}");
-            ;
     }
 }
 
